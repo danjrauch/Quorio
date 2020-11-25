@@ -1,0 +1,15 @@
+$black: #000000;
+$white: #FFFFFF;
+
+$square-color: $black;
+
+.square {
+  background-color: $square-color;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+}
+
+@import 'toast.scss'
